@@ -260,6 +260,10 @@ margin-left: 20px;
 max-width: 95%;
 }
 
+.work {
+width: 310px;
+}
+
 
 @media screen and (max-width: 640px) {
 .sidebar {
@@ -289,6 +293,7 @@ max-width: 95%;
 }
 
 #masthead {
+  position: absolute;
   max-width: 100%
 }
 
@@ -301,7 +306,6 @@ nav {
   margin-top: 25px;
 }
 nav a {
-  padding-left: 40px;
   margin-left: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
